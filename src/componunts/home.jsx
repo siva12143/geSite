@@ -14,8 +14,9 @@ import raymond from '../images/clients/logo_raymond.png';
 import uspa from '../images/clients/logo_uspa.png';
 import arrow_logo from '../images/clients/Logo_Arrow.webp';
 import dhg from '../images/clients/logo_dhg.png';
+import { Link } from "react-router-dom";
 
-
+const headingColor = "#eb866b";
 const Images = [bgImg1, bgImg2, bgImg3];
 const clientImg = [parkavenue, raymond, uspa, arrow_logo, dhg];
 export default function Home() {
@@ -68,7 +69,7 @@ export default function Home() {
                     >
                 <div className="h-full w-full container max-w-[1440px] mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
                     >
-                    <div className="lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <div className="lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 lg:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Before they sold out
                             <br className="hidden lg:inline-block" />readymade gluten
                         </h1>
@@ -188,14 +189,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="flex items-center gap-4">
-                        <img src="https://via.placeholder.com/40" alt="Gracie Potts" className="rounded-full w-10 h-10 object-cover" />
-                        <div>
-                            <p className="text-sm font-semibold">Gracie Potts</p>
-                            <p className="text-xs text-gray-600">Founder Fashly</p>
-                        </div>
-                        <button className="ml-auto bg-orange-400 hover:bg-orange-500 text-white text-sm font-medium px-4 py-2 rounded-full">
-                            More About Us
-                        </button>
+                        <button type="button" class="text-lg text-[#eb866b] hover:text-white border border-[#eb866b] hover:[#eb866b] focus:ring-4 focus:outline-none focus:ring-[#eb866b] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-[#eb866b] dark:text-[#eb866b] dark:hover:text-white dark:hover:bg-[#eb866b] dark:focus:[#eb866b]">
+                            <Link to="/about" >More About Us</Link>
+                            </button>
+
                     </div>
                 </div>
             </div>

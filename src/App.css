@@ -1,14 +1,15 @@
-.gridBefore:before{
-  content: ""; 
+.gridBefore:before {
+  content: "";
   display: block;
   position: absolute;
   width: 2px;
   height: 42%;
-  left: 20px;  
+  left: 20px;
   top: 13%;
-  background-color: #f97316;
+  background-color: #eb866b;
 }
-.howwework span:before{
+
+.howwework span:before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -16,9 +17,10 @@
   height: 3px;
   top: 15px;
   left: -95px;
-  background-color: #f97316;
+  background-color: #eb866b;
 }
-.titleNames:before{
+
+.titleNames:before {
   content: "";
   display: block;
   position: absolute;
@@ -26,24 +28,99 @@
   height: 5px;
   top: 15px;
   left: 0;
-  background-color: #f97316;
+  background-color: #eb866b;
 }
-.headBack{
+
+.headBack {
   backdrop-filter: blur(10px);
   background: #ffffffc0;
   color: black !important;
 }
-.serviceIcon, .serviceIcon i{
+
+.serviceIcon,
+.serviceIcon i {
   transition: .4s;
 }
-.serviceIcon:hover{
+
+.serviceIcon:hover {
   background-color: white;
 }
-.serviceIcon:hover i{
+
+.serviceIcon:hover i {
   color: black !important;
 }
-.container .slick-track{
+
+.container .slick-track {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.aboutBoxContainer h2,
+.aboutBoxContainer i {
+  transition: .5s;
+}
+
+.aboutBoxContainer {
+  box-shadow: 0 0 10px #6a606057;
+  transition: .5s;
+
+  &:hover {
+    background: #eb866b;
+    color: white;
+  }
+
+  &:hover i {
+    color: white;
+  }
+
+  &:hover h2 {
+    color: white;
+  }
+}
+
+.serviceContainers {
+  span {
+    border: 2px solid #eb866b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #eb866b;
+    cursor: pointer;
+    box-shadow: 0 0 10px #c3c3c3;
+  }
+
+  p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &:hover {
+    background-color: #eb866b;
+  }
+
+  &:hover span {
+    border: 2px solid #fff;
+    color: #fff;
+    box-shadow: 0 0 10px #ee6a4a;
+  }
+}
+
+.aboutBoxContainer2 {
+  box-shadow: 0 0 10px #c1baba6c;
+}
+
+.serviceActive {
+  h2 {
+    font-weight: bold;
+    color: rgb(39 22 6);
+  }
+
+  p {
+    font-weight: 500;
+    color: rgb(39 22 6);
+  }
 }

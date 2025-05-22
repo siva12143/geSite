@@ -26,6 +26,9 @@ export default function Footer() {
                                     <Link to="/about" class="text-[#A7A7A7]">About Us</Link>
                                 </li>
                                 <li>
+                                    <Link to="/services" class="text-[#A7A7A7]">Services</Link>
+                                </li>
+                                <li>
                                     <Link to="/contact" class="text-[#A7A7A7]">Contact Us</Link>
                                 </li>
                             </nav>

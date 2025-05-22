@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <header
-      className={`text-white body-font fixed top-0 w-full z-[10] transition-all duration-300 ${scrolled ? "headBack shadow-md" : "bg-transparent"
+      className={`text-white body-font fixed top-0 w-full z-[100] transition-all duration-300 ${scrolled ? "headBack shadow-md" : "bg-transparent"
         }`}
     >
       <div className="container mx-auto flex flex-wrap p-7 flex-col md:flex-row items-center max-w-[1440px] justify-around">
@@ -40,6 +40,9 @@ export default function Header() {
           </Link>
           <Link to="/about" className="mr-5 hover:text-gray-900 font-medium">
             About Us
+          </Link>
+          <Link to="/services" className="mr-5 hover:text-gray-900 font-medium">
+            Services
           </Link>
           <Link
             to="/contact"
