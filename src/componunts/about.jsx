@@ -33,9 +33,8 @@ export default function About() {
                     transition: "background 0.3s, border-radius 0.3s, opacity 0.3s"
                 }}></div>
                 <div className="h-full w-full max-w-[1440px] container a mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div className="lg:w-2/3  absolute md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <div className="lg:w-full absolute flex  md:items-start md:text-left mb-16 md:mb-0 items-center justify-center" >
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Us</h1>
-                        <p className="mb-8 leading-relaxed w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quo ipsam fugiat. Architecto magnam, ut atque odio, minus corrupti maiores accusamus exercitationem et nam quas cupiditate voluptates asperiores dolor dolore!</p>
                     </div>
                 </div>
             </section>

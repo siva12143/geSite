@@ -30,7 +30,7 @@ export default function Contact() {
           transition: "background 0.3s, border-radius 0.3s, opacity 0.3s"
         }}></div>
         <div className="h-full w-full max-w-[1440px] container a mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:w-2/3 lg:pl-[150px] absolute left-[35%] md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto">
+          <div className="w-full absolute justify-center flex md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto">
             <h1 className="text-center title-font sm:text-5xl text-4xl mb-4 font-medium text-white">Contact</h1>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function Contact() {
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Get In Touch
             </h1>
-            <p class="mb-8 leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis cumque quam ducimus cum fuga doloremque qui molestias ipsa</p>
+            <p class="mb-8 leading-relaxed">We’d love to hear from you! Whether you have a question, need a quote, or want to discuss your next garment order, our team is here to help. Reach out to us anytime — and we’ll get back to you as soon as possible.</p>
             <div class="flex justify-center gap-6  items-center mb-6">
               <div className=''>
                 <i class="fa fa-phone text-5xl text-[#eb866b]" aria-hidden="true"></i>
