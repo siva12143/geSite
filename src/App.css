@@ -31,6 +31,18 @@
   background-color: #eb866b;
 }
 
+.mainHeader>div {
+  justify-content: space-around;
+  width: 95%;
+  overflow: hidden;
+  padding: 20px 0;
+  flex-direction: row;
+}
+
+.arrow {
+  display: none;
+}
+
 .headBack {
   backdrop-filter: blur(10px);
   background: #ffffffc0;
@@ -93,7 +105,6 @@
   p {
     display: -webkit-box;
     -webkit-line-clamp: 4;
-    /* number of lines to show */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -113,10 +124,12 @@
 .aboutBoxContainer2 {
   box-shadow: 0 0 10px #c1baba6c;
 }
-.navActive{
+
+.navActive {
   color: #271606;
   font-weight: 600;
 }
+
 .serviceActive {
   h2 {
     font-weight: bold;
@@ -126,5 +139,151 @@
   p {
     font-weight: 500;
     color: rgb(39 22 6);
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .mainHeader {
+    /* width: 95%; */
+    left: 0;
+    padding: 0;
+    backdrop-filter: blur(10px);
+    background: #fff;
+    color: black !important;
+
+    span {
+      color: #000;
+    }
+
+    button {
+      color: #000 !important;
+    }
+
+    nav {
+      position: absolute;
+      width: 100%;
+      backdrop-filter: blur(10px);
+      background: #fff;
+      color: black !important;
+      top: 96px;
+      padding: 20px;
+
+      a {
+        color: #000;
+      }
+    }
+  }
+
+  .homeBannerTitle {
+    padding-top: 150px;
+    width: 100%;
+  }
+
+  .homeBannerContent {
+    width: 90%;
+  }
+
+  .homeAbout {
+
+    /* background: ; */
+    .content {
+      position: static;
+      background: #fff;
+    }
+  }
+
+  .homeAboutRight {
+    gap: 10px;
+    /* flex-direction: column; */
+  }
+
+  .homeService {
+    padding: 0;
+
+    .titleNames {
+      font-size: 25px !important;
+      font-weight: 500;
+    }
+
+    .titleNames::before {
+      width: 80px;
+      height: 2px;
+      top: 15px;
+      left: 10px;
+    }
+
+    h2 {
+      font-size: 30px !important;
+      font-weight: 500;
+    }
+  }
+  .homeServiceCard{
+    width: 100%;
+  }
+  .howWeWorks{
+    h2 span{
+      font-size: 25px;
+      left: 10px;
+    }
+    h2 span::before{
+      height: 2px !important;
+    }
+    h1{
+      font-size: 30px;
+    }
+    p{
+      padding: 20px;
+    }
+  }
+
+  .aboutPageabout{
+    margin-bottom: 20px !important;
+  }
+  .crafting > div{
+    padding: 20px;
+    flex-direction: column-reverse;
+    div > p{
+      font-size: 16px;
+      padding: 0 20px;
+    }
+    div + div{
+      padding: 0;
+    }
+  }
+  .crafting {
+    .aboutRightImg{
+      div{
+        width: 100% !important;
+      }
+      div+div{
+        display: none;
+      }
+    }
+  }
+  .missionVision{
+    position: static;
+    padding: 20px;
+    div{
+      padding: 10px;
+    }
+    i{
+      padding-top: 5px;
+      font-size: 30px;
+    }
+    h2{
+      font-size: 25px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+  .teamCardParent{
+    gap: 50px;
+  }
+  .teamCard{
+    width: 80%;
+    .TeamImgCont{
+      height: 250px !important;
+    }
   }
 }

@@ -48,17 +48,17 @@ export default function Service() {
                     <div className="container px-5 py-24 mx-auto">
                         <div className="flex flex-wrap -m-4 gap-y-[100px]">
                             <div className="xl:w-1/3 md:w-1/2 p-4">
-                                <div className="p-6 rounded-lg">
+                                <div className="homeService p-6 rounded-lg">
                                     <h3 className="tracking-widest text-[#f97316] text-2xl font-semibold pl-[100px] mb-4 title-font relative titleNames">Our Service</h3>
                                     <h2 className="text-4xl text-gray-900 font-medium title-font mb-6">Our Core Services</h2>
                                     <p className="leading-relaxed text-base mb-8">At Girish Exports, we take pride in delivering high-quality, customized men’s garments to clients across the globe. Our core services are designed to provide end-to-end solutions — from initial concept to final shipment — ensuring your brand receives the perfect product every time.</p>
                                     <button type="button" className="text-lg text-[#eb866b] hover:text-white border border-[#eb866b] focus:ring-4 focus:outline-none focus:ring-[#eb866b] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-[#eb866b] dark:text-[#eb866b] dark:hover:text-white dark:hover:bg-[#eb866b] dark:focus:ring-[#eb866b]">
-                                        <Link to="/service">All Service</Link>
+                                        <Link to="/services">All Service</Link>
                                     </button>
                                 </div>
                             </div>
                             {serviceList.map((e) => (
-                                <div key={e.id} className="xl:w-1/3 md:w-1/2 p-6">
+                                <div key={e.id} className="homeServiceCard xl:w-1/3 md:w-1/2 p-6">
                                     <div
                                         className="card_Container relative p-4 max-h-[450px] min-h-[400px]"
                                         style={{

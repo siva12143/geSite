@@ -19,10 +19,10 @@ import { Link } from "react-router-dom";
 const headingColor = "#eb866b";
 const Images = [bgImg1, bgImg2, bgImg3];
 const BannerContent = [
-    {Title:"Precision in Every Stitch", Content:"At Girish Exports, we combine expert craftsmanship with the latest technology to deliver men’s garments that meet the highest standards of quality, comfort, and durability."},
-    {Title:"Your Trusted Partner in Menswear Manufacturing", Content:"We work closely with your brand from initial design concepts to final production, ensuring every garment perfectly reflects your style and vision while maintaining exceptional quality."},
-    {Title:"Timely Delivery. Global Reach.", Content:"With our streamlined production process and efficient logistics, we handle large-scale orders with precision and deliver premium men’s apparel to clients across the globe on time, every time."},
-] 
+    { Title: "Precision in Every Stitch", Content: "At Girish Exports, we combine expert craftsmanship with the latest technology to deliver men’s garments that meet the highest standards of quality, comfort, and durability." },
+    { Title: "Your Trusted Partner in Menswear Manufacturing", Content: "We work closely with your brand from initial design concepts to final production, ensuring every garment perfectly reflects your style and vision while maintaining exceptional quality." },
+    { Title: "Timely Delivery. Global Reach.", Content: "With our streamlined production process and efficient logistics, we handle large-scale orders with precision and deliver premium men’s apparel to clients across the globe on time, every time." },
+]
 const clientImg = [parkavenue, raymond, uspa, arrow_logo, dhg];
 export default function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -64,20 +64,20 @@ export default function Home() {
     return (
         <div classNameName="mt-[100px] ">
             <section className="text-white body-font mb-[50px]"
-                    style={{
-                        backgroundImage: `url(${Images[currentSlide]})`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        height: "700px",
-                        transition: "background-image 1s ease-in-out",
-                    }}
-                    >
+                style={{
+                    backgroundImage: `url(${Images[currentSlide]})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    height: "700px",
+                    transition: "background-image 1s ease-in-out",
+                }}
+            >
                 <div className="h-full w-full container max-w-[1440px] mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
-                    >
+                >
                     <div className="lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 lg:pl-20 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">{BannerContent[currentSlide].Title}
+                        <h1 className="title-font homeBannerTitle sm:text-4xl text-3xl mb-4 font-medium text-white">{BannerContent[currentSlide].Title}
                         </h1>
-                        <p className="mb-8 w-2/3 leading-relaxed">{BannerContent[currentSlide].Content}</p>
+                        <p className="mb-8 w-2/3 homeBannerContent leading-relaxed">{BannerContent[currentSlide].Content}</p>
                     </div>
 
                 </div>
@@ -143,7 +143,7 @@ export default function Home() {
                     </div>
                 </div>
             </section> */}
-            
+
             {/* About */}
             <div className="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-16 items-center mb-24 max-width-[1440px]">
                 {/* <!-- Left Side --> */}
@@ -153,12 +153,10 @@ export default function Home() {
                     <p className="text-gray-600 mb-6">
                         At Girish Exports, we bring over 15 years of dedicated experience in men’s garment manufacturing. Our journey has been defined by a commitment to quality, craftsmanship, and continuous innovation in the apparel industry.
                     </p>
-                    <div className="relative">
+                    <div className="relative homeAbout">
                         <img src={gridLeftImg} alt="Team working" className="rounded-xl w-full p- object-cover" />
                         <div className="relative max-w-lg m-auto">
-                            <div style={{
-
-                            }} className=" absolute bottom-[-30px] left-[] bg-white shadow-lg rounded-lg p-4 pl-6  max-w-lg">
+                            <div className="content absolute bottom-[-30px] left-[] bg-white shadow-lg rounded-lg p-4 pl-6  max-w-lg">
                                 <p className="gridBefore text-sm italic text-gray-600 pl-4 mb-4 ;">With a fully equipped facility and a team of skilled professionals, we produce a wide range of men’s wear that meets international standards. We cater to businesses of all sizes, ensuring each product reflects style, comfort, and reliability.</p>
                                 <p className="text-sm font-medium text-gray-800">Girish Exports</p>
                             </div>
@@ -171,7 +169,7 @@ export default function Home() {
                     <div className="p-6">
                         <img src={gridRightImg} alt="Fashion Sketching" className="rounded-xl mb-6 w-full object-cover" />
                     </div>
-                    <div className="flex items-center gap-6 mb-6">
+                    <div className="flex homeAboutRight items-center gap-6 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-red-500">1,485+</h3>
                             <p className="text-sm text-gray-600">Satisfied Clients</p>
@@ -180,7 +178,7 @@ export default function Home() {
                             <p className="text-gray-600 text-sm">We’ve earned the trust of clients worldwide through our consistent quality, attention to detail, and on-time delivery.</p>
                         </div>
                     </div>
-                    <div className="flex items-center gap-6 mb-6">
+                    <div className="flex homeAboutRight items-center gap-6 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-orange-500">2,560+</h3>
                             <p className="text-sm text-gray-600">Projects Completed</p>
@@ -192,7 +190,7 @@ export default function Home() {
                     <div className="flex items-center gap-4">
                         <button type="button" class="text-lg text-[#eb866b] hover:text-white border border-[#eb866b] hover:[#eb866b] focus:ring-4 focus:outline-none focus:ring-[#eb866b] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-[#eb866b] dark:text-[#eb866b] dark:hover:text-white dark:hover:bg-[#eb866b] dark:focus:[#eb866b]">
                             <Link to="/about" >More About Us</Link>
-                            </button>
+                        </button>
 
                     </div>
                 </div>
@@ -200,11 +198,11 @@ export default function Home() {
 
             {/* Service */}
             <Service />
-            
+
             {/* our procss */}
             <div className="bg-[#f8f9fb]">
                 <section class="text-gray-600 py-8 body-font mt-[50px] max-w-[1440px] m-auto" >
-                    <div class="flex flex-col text-center w-full mb-6">
+                    <div class="flex flex-col text-center w-full mb-6 howWeWorks">
                         <h2 class="text-md text-[#f97316] howwework tracking-widest font-medium title-font mb-4">
                             <span className="relative text-2xl left-[30px]">Our process</span>
                         </h2>
@@ -246,7 +244,7 @@ export default function Home() {
             </div>
 
             {/* clients */}
-            <section class="text-gray-600 body-font bg-[#e7e8e9] p-8">
+            <section class="client text-gray-600 body-font bg-[#e7e8e9] p-8">
                 <div class="flex flex-col text-center w-full">
                     <h2 class="text-md text-[#f97316] howwework tracking-widest font-medium title-font mb-4">
                         <span className="relative text-2xl left-[30px]">Our Clients</span>
