@@ -12,10 +12,16 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+  const navlink = [
+    {id:1, name: "Home", link: "/" },
+    {id:2, name: "About Us", link: "/about" },
+    {id:3, name: "Contact Us", link: "/contact" },
+    {id:4, name: "Services", link: "/services" },
+  ]
 
   return (
     <header
-      className={`text-white body-font fixed top-0 w-full z-[100] transition-all duration-300 ${scrolled ? "headBack shadow-md" : "bg-transparent"
+      className={`text-white body-font fixed top-0 w-full z-[100000] transition-all duration-300 ${scrolled ? "headBack shadow-md" : "bg-transparent"
         }`}
     >
       <div className="container mx-auto flex flex-wrap p-7 flex-col md:flex-row items-center max-w-[1440px] justify-around">
@@ -35,21 +41,12 @@ export default function Header() {
           <span className="ml-3 text-xl">Girish Exports</span>
         </a>
         <nav className="flex flex-wrap items-center text-base justify-center">
-          <Link to="/" className="mr-5 hover:text-gray-900 font-medium">
-            Home
-          </Link>
-          <Link to="/about" className="mr-5 hover:text-gray-900 font-medium">
-            About Us
-          </Link>
-          <Link to="/services" className="mr-5 hover:text-gray-900 font-medium">
-            Services
-          </Link>
-          <Link
-            to="/contact"
-            className="mr-5 hover:text-gray-900 font-medium"
-          >
-            Contact Us
-          </Link>
+          {navlink.map((e) => (
+
+            <Link to={e.link} id={e.id} className="mr-5 hover:text-gray-900 font-medium">
+              {e.name}
+            </Link>
+          ))}
         </nav>
       </div>
     </header>

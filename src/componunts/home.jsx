@@ -18,6 +18,11 @@ import { Link } from "react-router-dom";
 
 const headingColor = "#eb866b";
 const Images = [bgImg1, bgImg2, bgImg3];
+const BannerContent = [
+    {Title:"Precision in Every Stitch", Content:"At Girish Exports, we combine expert craftsmanship with the latest technology to deliver men’s garments that meet the highest standards of quality, comfort, and durability."},
+    {Title:"Your Trusted Partner in Menswear Manufacturing", Content:"We work closely with your brand from initial design concepts to final production, ensuring every garment perfectly reflects your style and vision while maintaining exceptional quality."},
+    {Title:"Timely Delivery. Global Reach.", Content:"With our streamlined production process and efficient logistics, we handle large-scale orders with precision and deliver premium men’s apparel to clients across the globe on time, every time."},
+] 
 const clientImg = [parkavenue, raymond, uspa, arrow_logo, dhg];
 export default function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -69,15 +74,10 @@ export default function Home() {
                     >
                 <div className="h-full w-full container max-w-[1440px] mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
                     >
-                    <div className="lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 lg:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Before they sold out
-                            <br className="hidden lg:inline-block" />readymade gluten
+                    <div className="lg:w-2/3 md:w-1/2 lg:pr-24 md:pr-16 lg:pl-20 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">{BannerContent[currentSlide].Title}
                         </h1>
-                        <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-                        <div className="flex justify-center">
-                            <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Button</button>
-                            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-                        </div>
+                        <p className="mb-8 w-2/3 leading-relaxed">{BannerContent[currentSlide].Content}</p>
                     </div>
 
                 </div>
@@ -143,14 +143,15 @@ export default function Home() {
                     </div>
                 </div>
             </section> */}
-
+            
+            {/* About */}
             <div className="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-16 items-center mb-24 max-width-[1440px]">
                 {/* <!-- Left Side --> */}
                 <div>
                     <p className="text-orange-600 font-semibold mb-2">About Fashly</p>
-                    <h2 className="text-3xl font-bold mb-4">We Have 15 Years Of Experiences In Fashion Designer Service</h2>
+                    <h2 className="text-3xl font-bold mb-4">We Have 15+ Years of Experience in the Garment Industry</h2>
                     <p className="text-gray-600 mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        At Girish Exports, we bring over 15 years of dedicated experience in men’s garment manufacturing. Our journey has been defined by a commitment to quality, craftsmanship, and continuous innovation in the apparel industry.
                     </p>
                     <div className="relative">
                         <img src={gridLeftImg} alt="Team working" className="rounded-xl w-full p- object-cover" />
@@ -158,8 +159,8 @@ export default function Home() {
                             <div style={{
 
                             }} className=" absolute bottom-[-30px] left-[] bg-white shadow-lg rounded-lg p-4 pl-6  max-w-lg">
-                                <p className="gridBefore text-sm italic text-gray-600 pl-4 mb-4 ;    ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa architecto, autem quia asperiores temporibus amet harum. Perferendis dolore nam autem quo repudiandae delectus quas? cumque nesciunt facere.</p>
-                                <p className="text-sm font-medium text-gray-800">Gracie Potts</p>
+                                <p className="gridBefore text-sm italic text-gray-600 pl-4 mb-4 ;">With a fully equipped facility and a team of skilled professionals, we produce a wide range of men’s wear that meets international standards. We cater to businesses of all sizes, ensuring each product reflects style, comfort, and reliability.</p>
+                                <p className="text-sm font-medium text-gray-800">Girish Exports</p>
                             </div>
                         </div>
                     </div>
@@ -176,7 +177,7 @@ export default function Home() {
                             <p className="text-sm text-gray-600">Satisfied Clients</p>
                         </div>
                         <div className="border-l pl-6">
-                            <p className="text-gray-600 text-sm">Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                            <p className="text-gray-600 text-sm">We’ve earned the trust of clients worldwide through our consistent quality, attention to detail, and on-time delivery.</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-6 mb-6">
@@ -185,7 +186,7 @@ export default function Home() {
                             <p className="text-sm text-gray-600">Projects Completed</p>
                         </div>
                         <div className="border-l pl-6">
-                            <p className="text-gray-600 text-sm">Perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium.</p>
+                            <p className="text-gray-600 text-sm">From custom styles to large-scale production, our proven track record showcases our capability to handle diverse and demanding orders with precision.</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-4">
@@ -197,7 +198,10 @@ export default function Home() {
                 </div>
             </div>
 
+            {/* Service */}
             <Service />
+            
+            {/* our procss */}
             <div className="bg-[#f8f9fb]">
                 <section class="text-gray-600 py-8 body-font mt-[50px] max-w-[1440px] m-auto" >
                     <div class="flex flex-col text-center w-full mb-6">
@@ -205,7 +209,7 @@ export default function Home() {
                             <span className="relative text-2xl left-[30px]">Our process</span>
                         </h2>
                         <h1 class="text-5xl font-medium title-font mb-6 text-gray-900">How We Works</h1>
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui corrupti temporibus esse tenetur consequatur voluptatibus perferendis voluptatum, illum voluptas distinctio, quam iste dignissimos veritatis at illo? Assumenda, sed? Pariatur, labore.</p>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-lg">At Girish Exports, we believe in making every step clear, simple, and efficient. From your first interaction to final delivery, here’s how we ensure quality and satisfaction at every stage.</p>
                     </div>
                     <div class="container px-5 py-16 mx-auto max-width-[1440px]">
                         <div class="flex flex-wrap -mx-4 -mb-10 justify-around relative text-center">
@@ -214,17 +218,17 @@ export default function Home() {
                                     <i class="fa fa-calendar" style={{ fontSize: "45px", color: "white" }} aria-hidden="true"></i>
                                 </div>
                                 <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Make Appointment</h2>
-                                <p class="leading-relaxed text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, veniam! Tempora repudiandae provident quidem ab iste.</p>
+                                <p class="leading-relaxed text-base">Connect with us to get started on your order.</p>
                             </div>
                             <div className="arrow1 arrow absolute w-[200px] left-[26%] top-[20px]">
                                 <img src={arrow} alt="" />
                             </div>
                             <div class="sm:w-1/4 mb-10 px-4">
-                                <div class="rounded-lg inline-block overflow-hidden p-6 shadow-2xl">
+                                <div class="rounded-lg inline-block overflow-hidden p-6 bg-white shadow-2xl">
                                     <img src={meeting} style={{ width: "50px" }} alt="" />
                                 </div>
                                 <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Meeting</h2>
-                                <p class="leading-relaxed text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, veniam! Tempora repudiandae provident quidem ab iste.</p>
+                                <p class="leading-relaxed text-base">Plan your garments with our expert team.</p>
                             </div>
                             <div className="arrow2 arrow absolute w-[200px] left-[60%] top-[20px]" >
                                 <img src={arrow} alt="" />
@@ -234,13 +238,14 @@ export default function Home() {
                                     <i class="fa fa-check" style={{ fontSize: "45px", color: "white" }} aria-hidden="true"></i>
                                 </div>
                                 <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Enjoy Your Fashon</h2>
-                                <p class="leading-relaxed text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, veniam! Tempora repudiandae provident quidem ab iste.</p>
+                                <p class="leading-relaxed text-base">Get your finished products, ready to sell.</p>
                             </div>
                         </div>
                     </div>
                 </section>
             </div>
 
+            {/* clients */}
             <section class="text-gray-600 body-font bg-[#e7e8e9] p-8">
                 <div class="flex flex-col text-center w-full">
                     <h2 class="text-md text-[#f97316] howwework tracking-widest font-medium title-font mb-4">

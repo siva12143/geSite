@@ -5,11 +5,11 @@ import gridLeftImg from '../images/G-left.jpg';
 import bg from '../images/BG-2.png';
 
 const serviceList = [
-    { id: 1, img: gridLeftImg, Title: "SUBTITLE 1", SubTitle: "Colosseum Roma 1", Content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum hic a excepturi facilis voluptas ipsam perferendis ipsum, neque, labore necessitatibus pariatur? Deleniti blanditiis rem repellendus reiciendis atque, et maiores laboriosam              Similique eaque fuga necessitatibus laboriosam aliquam ad enim exercitationem magni est dolore ullam quam quas, itaque odio voluptatem. Iste natus atque quis debitis ratione dignissimos explicabo ad eligendi ut facilis.               Error vel eveniet doloremque necessitatibus sequi. Consequatur similique recusandae molestiae dolorum neque cumque minima vero explicabo, corrupti veritatis, dignissimos laborum doloremque tempora sapiente maxime fuga voluptatibus molestias placeat? Vero, dolorum. Repudiandae esse adipisci sequi recusandae ipsam fugiat facere amet quaerat. Quasi incidunt dolorem dolores neque libero totam harum beatae, saepe nam iure omnis, nisi voluptatum rem? Quia ab perferendis officia. Doloremque facilis soluta veritatis inventore necessitatibus vel molestias. Consequuntur provident, sint vero facere excepturi nihil labore quam tenetur aliquam possimus nisi ea aperiam, perspiciatis nam. Velit incidunt assumenda ea nihil. 11" },
-    { id: 2, img: gridLeftImg, Title: "SUBTITLE 2", SubTitle: "Colosseum Roma 2", Content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum hic a excepturi facilis voluptas ipsam perferendis ipsum, neque, labore necessitatibus pariatur? Deleniti blanditiis rem repellendus reiciendis atque, et maiores laboriosam              Similique eaque fuga necessitatibus laboriosam aliquam ad enim exercitationem magni est dolore ullam quam quas, itaque odio voluptatem. Iste natus atque quis debitis ratione dignissimos explicabo ad eligendi ut facilis.               Error vel eveniet doloremque necessitatibus sequi. Consequatur similique recusandae molestiae dolorum neque cumque minima vero explicabo, corrupti veritatis, dignissimos laborum doloremque tempora sapiente maxime fuga voluptatibus molestias placeat? Vero, dolorum. Repudiandae esse adipisci sequi recusandae ipsam fugiat facere amet quaerat. Quasi incidunt dolorem dolores neque libero totam harum beatae, saepe nam iure omnis, nisi voluptatum rem? Quia ab perferendis officia. Doloremque facilis soluta veritatis inventore necessitatibus vel molestias. Consequuntur provident, sint vero facere excepturi nihil labore quam tenetur aliquam possimus nisi ea aperiam, perspiciatis nam. Velit incidunt assumenda ea nihil. 22" },
-    { id: 3, img: gridLeftImg, Title: "SUBTITLE 3", SubTitle: "Colosseum Roma 3", Content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum hic a excepturi facilis voluptas ipsam perferendis ipsum, neque, labore necessitatibus pariatur? Deleniti blanditiis rem repellendus reiciendis atque, et maiores laboriosam              Similique eaque fuga necessitatibus laboriosam aliquam ad enim exercitationem magni est dolore ullam quam quas, itaque odio voluptatem. Iste natus atque quis debitis ratione dignissimos explicabo ad eligendi ut facilis.               Error vel eveniet doloremque necessitatibus sequi. Consequatur similique recusandae molestiae dolorum neque cumque minima vero explicabo, corrupti veritatis, dignissimos laborum doloremque tempora sapiente maxime fuga voluptatibus molestias placeat? Vero, dolorum. Repudiandae esse adipisci sequi recusandae ipsam fugiat facere amet quaerat. Quasi incidunt dolorem dolores neque libero totam harum beatae, saepe nam iure omnis, nisi voluptatum rem? Quia ab perferendis officia. Doloremque facilis soluta veritatis inventore necessitatibus vel molestias. Consequuntur provident, sint vero facere excepturi nihil labore quam tenetur aliquam possimus nisi ea aperiam, perspiciatis nam. Velit incidunt assumenda ea nihil. 33" },
-    { id: 4, img: gridLeftImg, Title: "SUBTITLE 4", SubTitle: "Colosseum Roma 4", Content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum hic a excepturi facilis voluptas ipsam perferendis ipsum, neque, labore necessitatibus pariatur? Deleniti blanditiis rem repellendus reiciendis atque, et maiores laboriosam              Similique eaque fuga necessitatibus laboriosam aliquam ad enim exercitationem magni est dolore ullam quam quas, itaque odio voluptatem. Iste natus atque quis debitis ratione dignissimos explicabo ad eligendi ut facilis.               Error vel eveniet doloremque necessitatibus sequi. Consequatur similique recusandae molestiae dolorum neque cumque minima vero explicabo, corrupti veritatis, dignissimos laborum doloremque tempora sapiente maxime fuga voluptatibus molestias placeat? Vero, dolorum. Repudiandae esse adipisci sequi recusandae ipsam fugiat facere amet quaerat. Quasi incidunt dolorem dolores neque libero totam harum beatae, saepe nam iure omnis, nisi voluptatum rem? Quia ab perferendis officia. Doloremque facilis soluta veritatis inventore necessitatibus vel molestias. Consequuntur provident, sint vero facere excepturi nihil labore quam tenetur aliquam possimus nisi ea aperiam, perspiciatis nam. Velit incidunt assumenda ea nihil. 44" },
-    { id: 5, img: gridLeftImg, Title: "SUBTITLE 5", SubTitle: "Colosseum Roma 5", Content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum hic a excepturi facilis voluptas ipsam perferendis ipsum, neque, labore necessitatibus pariatur? Deleniti blanditiis rem repellendus reiciendis atque, et maiores laboriosam              Similique eaque fuga necessitatibus laboriosam aliquam ad enim exercitationem magni est dolore ullam quam quas, itaque odio voluptatem. Iste natus atque quis debitis ratione dignissimos explicabo ad eligendi ut facilis.Error vel eveniet doloremque necessitatibus sequi. Consequatur similique recusandae molestiae dolorum neque cumque minima vero explicabo, corrupti veritatis, dignissimos laborum doloremque tempora sapiente maxime fuga voluptatibus molestias placeat? Vero, dolorum. Repudiandae esse adipisci sequi recusandae ipsam fugiat facere amet quaerat. Quasi incidunt dolorem dolores neque libero totam harum beatae, saepe nam iure omnis, nisi voluptatum rem? Quia ab perferendis officia. Doloremque facilis soluta veritatis inventore necessitatibus vel molestias. Consequuntur provident, sint vero facere excepturi nihil labore quam tenetur aliquam possimus nisi ea aperiam, perspiciatis nam. Velit incidunt assumenda ea nihil. 55 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum hic a excepturi facilis voluptas ipsam perferendis ipsum, neque, labore necessitatibus pariatur? Deleniti blanditiis rem repellendus reiciendis atque, et maiores laboriosam              Similique eaque fuga necessitatibus laboriosam aliquam ad enim exercitationem magni est dolore ullam quam quas, itaque odio voluptatem. Iste natus atque quis debitis ratione dignissimos explicabo ad eligendi ut facilis.Error vel eveniet doloremque necessitatibus sequi. Consequatur similique recusandae molestiae dolorum neque cumque minima vero explicabo, corrupti veritatis, dignissimos laborum doloremque tempora sapiente maxime fuga voluptatibus molestias placeat? Vero, dolorum. Repudiandae esse adipisci sequi recusandae ipsam fugiat facere amet quaerat. Quasi incidunt dolorem dolores neque libero totam harum beatae, saepe nam iure omnis, nisi voluptatum rem? Quia ab perferendis officia. Doloremque facilis soluta veritatis inventore necessitatibus vel molestias. Consequuntur provident, sint vero facere excepturi nihil labore quam tenetur aliquam possimus nisi ea aperiam, perspiciatis nam. Velit incidunt assumenda ea nihil. 55" },
+    { id: 1, img: gridLeftImg, Title: "Custom Men’s Garment Manufacturing", SubTitle: "Crafting precision-tailored apparel for every men’s fashion need.", Content: "We specialize in manufacturing a wide variety of men’s clothing including formal shirts, casual wear, and corporate uniforms. Every garment is produced with attention to detail, ensuring excellent fit, durability, and premium finish." },
+    { id: 2, img: gridLeftImg, Title: "Private Label Production", SubTitle: "our brand, our craftsmanship.", Content: "We offer full-service private label manufacturing for brands looking to establish or grow their identity. From fabric selection to custom labeling and packaging, we ensure your brand stands out in the market." },
+    { id: 3, img: gridLeftImg, Title: "Sample Development & Prototyping", SubTitle: "Your vision, visualized to perfection.", Content: "Before going into mass production, we help you create precise samples that match your design specifications. Our prototyping process allows for testing, fitting, and adjustments to ensure everything is perfect." },
+    { id: 4, img: gridLeftImg, Title: "Bulk Order Production", SubTitle: "Scalable solutions with uncompromised quality.", Content: "We efficiently manage large-scale garment production while maintaining top-notch quality control. Whether it's a small batch or thousands of units, we deliver consistent results on time." },
+    { id: 5, img: gridLeftImg, Title: "Global Shipping & Export Management", SubTitle: "From our factory floor to your global doorstep.", Content: "Our export operations follow international shipping standards and compliance protocols. We handle all logistics, packaging, and documentation — ensuring smooth delivery to your destination." },
 ];
 
 export default function Service() {
@@ -22,6 +22,16 @@ export default function Service() {
         if (found) setSelectedItem(found);
     };
 
+    const [openId, setOpenId] = useState(null);
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleContent = (id) => {
+        if (openId === id) {
+            setOpenId(null); // close if clicked again
+        } else {
+            setOpenId(id); // open clicked item
+        }
+        setIsOpen(openId == id);
+    };
     return (
         <div>
             {isHome ? (
@@ -39,9 +49,9 @@ export default function Service() {
                         <div className="flex flex-wrap -m-4 gap-y-[100px]">
                             <div className="xl:w-1/3 md:w-1/2 p-4">
                                 <div className="p-6 rounded-lg">
-                                    <h3 className="tracking-widest text-[#f97316] text-3xl font-semibold pl-[100px] mb-4 title-font relative titleNames">Our Service</h3>
-                                    <h2 className="text-4xl text-gray-900 font-medium title-font mb-6">Lorem ipsum dolor</h2>
-                                    <p className="leading-relaxed text-base mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                                    <h3 className="tracking-widest text-[#f97316] text-2xl font-semibold pl-[100px] mb-4 title-font relative titleNames">Our Service</h3>
+                                    <h2 className="text-4xl text-gray-900 font-medium title-font mb-6">Our Core Services</h2>
+                                    <p className="leading-relaxed text-base mb-8">At Girish Exports, we take pride in delivering high-quality, customized men’s garments to clients across the globe. Our core services are designed to provide end-to-end solutions — from initial concept to final shipment — ensuring your brand receives the perfect product every time.</p>
                                     <button type="button" className="text-lg text-[#eb866b] hover:text-white border border-[#eb866b] focus:ring-4 focus:outline-none focus:ring-[#eb866b] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-[#eb866b] dark:text-[#eb866b] dark:hover:text-white dark:hover:bg-[#eb866b] dark:focus:ring-[#eb866b]">
                                         <Link to="/service">All Service</Link>
                                     </button>
@@ -59,7 +69,7 @@ export default function Service() {
                                         }}
                                     >
                                         <div className="serviceContainers hover:bg-[#f97316] transition-colors duration-500 hover:text-white absolute p-6 text-center rounded-lg bg-[#fff] shadow-md w-[80%] bottom-[-50px] left-[10%]">
-                                            <h2 className="text-lg text-center font-medium title-font mb-4">{e.SubTitle}</h2>
+                                            <h2 className="text-lg text-center font-medium title-font mb-4">{e.Title}</h2>
                                             <p className="leading-relaxed text-base mb-4">{e.Content}</p>
                                             {!isHome && (
                                                 <span
@@ -98,20 +108,22 @@ export default function Service() {
                             </div>
                         </div>
                     </section>
+
+
                     <section className="text-gray-600 body-font " style={{
                         backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${bg})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundAttachment: "fixed",
                         backgroundRepeat: 'no-repeat',
-                    }} s>
+                    }}>
                         <div className="container px-5 py-24 mx-auto flex flex-wrap max-w-[1200px]">
-                            <div className="flex flex-wrap justify-around w-full items-baseline">
-                                <div className="lg:w-1/3 md:w-1/2 md:pr-10 md:py-6">
+                            <div className="flex flex-wrap justify-around w-full relative items-center">
+                                <div className="lg:w-[40%] md:w-1/2 md:pr-10 md:py-6 relative">
                                     {serviceList.map((e) => (
                                         <div
                                             key={e.id}
-                                            className={`flex relative pb-12 cursor-pointer ${selectedItem.id === e.id ? 'serviceActive rounded' : ''}`}
+                                            className={`flex bg-white pt-2 relative sticky top-[100px] pb-12 cursor-pointer ${selectedItem.id === e.id ? 'serviceActive rounded' : ''}`}
                                             onClick={() => handleView(e.id)}
                                         >
                                             <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -124,18 +136,62 @@ export default function Service() {
                                             </div>
                                             <div className="flex-grow pl-4">
                                                 <h2 className="font-medium title-font text-xl mb-1 tracking-wider">{e.Title}</h2>
-                                                <p className="leading-relaxed text-lg">{e.SubTitle}</p>
+                                                <p className="leading-relaxed text-lg">{selectedItem.id === e.id && e.SubTitle}</p>
                                             </div>
                                         </div>
                                     ))}
                                 </div>
-                                <div className="lg:w-2/3 relative md:w-1/2 md:py-6 md:px-6 rounded shadow-lg">
-                                    <h2 className='mb-6 font-semibold text-3xl'>{selectedItem.SubTitle}</h2>
-                                    <p className=''>{selectedItem.Content}</p>
+                                <div className="lg:w-[60%] relative md:w-1/2 md:py-6 md:px-6 rounded">
+                                    <div className='shadow-lg p-8 rounded-lg sticky top-[100px]'>
+                                        <h1 className='text-3xl mb-8'>{selectedItem.Title}</h1>
+                                        <div>
+                                            <div><img src={selectedItem.img} alt="" /></div>
+                                            <h2 className='mt-4 mb-6 font-semibold text-2xl '>{selectedItem.SubTitle}</h2>
+                                            <p className=''>{selectedItem.Content}</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+                    {/* <section class="text-gray-600 body-font" 
+                        style={{
+                        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${bg})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundAttachment: "fixed",
+                        backgroundRepeat: 'no-repeat',
+                    }}
+                    >
+                        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+
+                            {serviceList.map((e) => (
+                                <div class="flex relative py-10 sm:items-center md:w-2/3 mx-auto">
+                                    <div class="h-full w-6 absolute left-[69px] inset-0 flex items-baseline justify-center">
+                                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                    </div>
+                                    <div class="flex-grow md:pl-8 pl-6 flex items-flex-start flex-col sm:flex-row">
+                                        <div class="flex-shrink-0 w-24 h-24 z-[10] bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0" onClick={(() => toggleContent(e.id))}>
+                                            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl" 
+                                            style={{
+                                                color : isOpen ? "#" : "#",
+                                            }}
+                                            >{e.Title}</h2>
+                                            <h3 class="leading-relaxed text-xl font-medium mb-3">{e.SubTitle}</h3>
+                                            <p>{openId === e.id && e.Content}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            ))}
+                        </div>
+                    </section> */}
                 </div>
             )}
         </div>
