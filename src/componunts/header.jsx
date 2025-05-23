@@ -15,8 +15,8 @@ export default function Header() {
   const navlink = [
     {id:1, name: "Home", link: "/" },
     {id:2, name: "About Us", link: "/about" },
-    {id:3, name: "Contact Us", link: "/contact" },
-    {id:4, name: "Services", link: "/services" },
+    {id:3, name: "Services", link: "/services" },
+    {id:4, name: "Contact Us", link: "/contact" },
   ]
 
   return (
