@@ -33,7 +33,7 @@ export default function About() {
                     transition: "background 0.3s, border-radius 0.3s, opacity 0.3s"
                 }}></div>
                 <div className="h-full w-full max-w-[1440px] container a mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div className="lg:w-full absolute flex  md:items-start md:text-left mb-16 md:mb-0 items-center justify-center" >
+                    <div className="lg:w-full left-0 absolute flex  md:items-start md:text-left mb-16 md:mb-0 items-center justify-center" >
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Us</h1>
                     </div>
                 </div>
@@ -85,17 +85,18 @@ export default function About() {
             </div>
             {/* Crafting */}
             <section class="crafting text-gray-600 body-font m-auto mb-[150px]">
-                <h1 class="title-font text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Crafting Quality with Every Stitch
-                </h1>
+                <h1 class="title-font hidden text-center sm:text-4xl text-3xl mb-8 font-medium text-gray-900">Crafting Quality with Every Stitch</h1>
+
                 <div class="container mx-auto flex px-16 py-24 md:flex-row flex-col max-w-[1440px] items-center">
                     <div class="lg:w-1/2 md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
+                        <h1 class="title-font text-center hidden lg:block  md:block sm:block sm:text-4xl text-3xl mb-8 font-medium text-gray-900">Crafting Quality with Every Stitch</h1>
                         <p class="mb-8 leading-relaxed text-lg">At Girish Exports, we’ve been turning fabric into fashion for over 15 years. Our journey started with a simple goal — to deliver high-quality men’s garments that blend comfort, durability, and timeless style. Every design begins with creativity, backed by deep industry knowledge and a passion for precision. From detailed sketches to final fittings, we ensure excellence in every step of production. Because for us, it’s not just clothing — it’s craftsmanship with purpose.</p>
                     </div>
                     <div class=" p-8 lg:w-1/2 md:w-1/2 w-5/6 mb-10 md:mb-0">
 
                         <div className="aboutRightImg relative flex justify-end items-center">
                             <div className='w-[350px] h-[450px]'><img src={test} className='w-full h-full rounded-xl' alt="" /></div>
-                            <div className='absolute left-[100px] border border-[#fff] border-[20px] w-[300px] h-[300px]'><img src={test2} style={{ objectFit: 'cover' }} className='rounded-xl w-full h-full' alt="" /></div>
+                            <div className='absolute left-[20px] rounded-lg bg-white border border-[#fff] border-[20px] w-[300px] h-[300px]'><img src={test2} style={{ objectFit: 'cover' }} className='rounded-lg w-full h-full' alt="" /></div>
                         </div>
 
                     </div>
@@ -218,7 +219,7 @@ export default function About() {
                                 <div class=" w-full py-2 my-2 rounded-xl bottom-[30px] bg-white ">
                                     <h2 class="title-font font-medium text-2xl text-gray-900">Manu</h2>
                                     <h3 class="text-[red] text-lg">Accounts</h3>
-                                    </div>
+                                </div>
                             </div>
                         </div>
 

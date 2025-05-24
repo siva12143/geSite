@@ -141,7 +141,15 @@
     color: rgb(39 22 6);
   }
 }
-
+.TeamImgCont img{
+  transition: ease-in-out .5s;
+}
+.TeamImgCont:hover {
+  img{
+    top: 0;
+    left: 0;
+  }
+}
 @media only screen and (max-width:480px) {
   .mainHeader {
     /* width: 95%; */
@@ -260,9 +268,13 @@
       }
     }
   }
+  .crafting > h1{
+      display: block !important;
+    }
   .missionVision{
     position: static;
     padding: 20px;
+    margin: 0px auto;
     div{
       padding: 10px;
     }

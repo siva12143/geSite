@@ -30,7 +30,7 @@ export default function Contact() {
           transition: "background 0.3s, border-radius 0.3s, opacity 0.3s"
         }}></div>
         <div className="h-full w-full max-w-[1440px] container a mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="w-full absolute justify-center flex md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto">
+          <div className="w-full absolute left-0 justify-center flex md:items-start md:text-left mb-16 md:mb-0 items-center text-center mx-auto">
             <h1 className="text-center title-font sm:text-5xl text-4xl mb-4 font-medium text-white">Contact</h1>
           </div>
         </div>

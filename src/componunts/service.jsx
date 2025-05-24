@@ -102,7 +102,7 @@ export default function Service() {
                             transition: "background 0.3s, border-radius 0.3s, opacity 0.3s"
                         }}></div>
                         <div className="h-full w-full max-w-[1440px] container a mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                            <div className="justify-center absolute flex mb-16 md:mb-0 items-center w-full">
+                            <div className="justify-center left-0 absolute flex mb-16 md:mb-0 items-center w-full">
                                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Services</h1>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ export default function Service() {
                         </div>
                     </section>
 
-                    {/* <section class="text-gray-600 body-font" 
+                    <section class="text-gray-600 body-font" 
                         style={{
                         backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${bg})`,
                         backgroundSize: 'cover',
@@ -163,19 +163,11 @@ export default function Service() {
                         backgroundRepeat: 'no-repeat',
                     }}
                     >
-                        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+                        <div class="container border border-[#000] mb-5 w-3/4 rounded-xl mx-auto flex flex-wrap">
 
                             {serviceList.map((e) => (
-                                <div class="flex relative py-10 sm:items-center md:w-2/3 mx-auto">
-                                    <div class="h-full w-6 absolute left-[69px] inset-0 flex items-baseline justify-center">
-                                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                    </div>
+                                <div class="flex relative py-3 sm:items-center w-full mx-auto "style={{borderBottom:"1px solid"}}>
                                     <div class="flex-grow md:pl-8 pl-6 flex items-flex-start flex-col sm:flex-row">
-                                        <div class="flex-shrink-0 w-24 h-24 z-[10] bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
-                                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                            </svg>
-                                        </div>
                                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0" onClick={(() => toggleContent(e.id))}>
                                             <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl" 
                                             style={{
@@ -190,7 +182,7 @@ export default function Service() {
 
                             ))}
                         </div>
-                    </section> */}
+                    </section>
                 </div>
             )}
         </div>
